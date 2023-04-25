@@ -4,10 +4,10 @@ html, body {
 }
 
 main, iframe {
-    background: #ee0303;
-    max-height: 100vh;
+    background: black;
+    /* max-height: 100vh; */
     /* width: 100vw; */
-    margin: auto;
+    /* margin: auto; */
 }
 
 #desktop {
@@ -27,5 +27,7 @@ main, iframe {
 @media (orientation: landscape) {
     #desktop {
         display: block;
+        max-height: 100vh;
+        width: 100vw;
     }
 }
